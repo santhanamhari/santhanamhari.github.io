@@ -109,7 +109,7 @@ humanoid robots to navigate warehouse settings.
                 <papertitle>Explaining Machine Learned Models from EHR</papertitle>
               </a>
               <br>
-              <strong>Hari Santhanam*</strong>,
+              <strong>Hari Santhanam</strong>,
 	  Tony Liu, Lyle Ungar, and University of Utah Pediatric Sepsis Team
               <br>
               <em>Manuscript in Preparation. 
@@ -122,155 +122,40 @@ humanoid robots to navigate warehouse settings.
           </tr>
 		
 		
-          <tr bgcolor="#ffffd0" onmouseout="sirfs_stop()" onmouseover="sirfs_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
+	  <tr onmouseout="malle_stop()" onmouseover="malle_start()">
+            <td style="padding:20px;width:30%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='sirfs_image'>
-                  <a href="images/Estee.png"><img src='images/Estee_160.png' style="border-style: none"></a>
-                </div>
-                <a href="images/Estee.png"><img src='images/Estee_160_prodB2.png' style="border-style: none"></a>
+                <div class="two" id='malle_image'>
+                  <img src='images/ehr.png' width="200"></div>
+                <img src='images/ehr.png' width="200">
               </div>
               <script type="text/javascript">
-                function sirfs_start() {
-                  document.getElementById('sirfs_image').style.opacity = "1";
+                function malle_start() {
+                  document.getElementById('malle_image').style.opacity = "1";
                 }
 
-                function sirfs_stop() {
-                  document.getElementById('sirfs_image').style.opacity = "0";
+                function malle_stop() {
+                  document.getElementById('malle_image').style.opacity = "0";
                 }
-                sirfs_stop()
+                malle_stop()
               </script>
             </td>
-            <td width="75%" valign="middle">
-              <p>
-                <a href="https://arxiv.org/abs/2010.03592" id="SIRFS">
-                  <papertitle>Shape, Illumination, and Reflectance from Shading</papertitle>
-                </a>
-                <br>
-                <strong>Jonathan T. Barron</strong>, <a href="http://www.cs.berkeley.edu/~malik/">Jitendra Malik</a>
-                <br>
-                <em>TPAMI</em>, 2015
-                <br>
-                <a href="data/BarronMalikTPAMI2015.bib">bibtex</a> / <a href="https://drive.google.com/file/d/0B4nuwEMaEsnmVWpfa19mbUxIYW8/view?usp=sharing">keynote</a> (or <a href="https://drive.google.com/file/d/0B4nuwEMaEsnmazJvLXJUb0NuM1U/view?usp=sharing">powerpoint</a>, <a href="https://drive.google.com/file/d/0B4nuwEMaEsnmTDBUWE96VHJndjg/view?usp=sharing">PDF</a>) / <a href="http://www.youtube.com/watch?v=NnePYprvFvA">video</a> / <a href="https://drive.google.com/file/d/1vg9Rb-kBntSTnTCzVgFlskkPXvTB_5aq/view?usp=sharing">code &amp; data</a> / <a href="https://drive.google.com/file/d/11X5Zfjy7Q7oP_V2rtqy2f5-x9YgQUAFd/view?usp=sharing">kudos</a>
-              </p>
-              <p>
-                We present <strong>SIRFS</strong>, which can estimate shape, chromatic illumination, reflectance, and shading from a single image of an masked object.
-              </p>
-              <p>
-                This paper subsumes our CVPR 2011, CVPR 2012, and ECCV 2012 papers.
-              </p>
-            </td>
-          </tr>
-
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src="images/ArbalaezCVPR2014.jpg" alt="ArbalaezCVPR2014" width="160" height="120" style="border-style: none">
-            </td>
-            <td width="75%" valign="middle">
-              <a href="https://drive.google.com/file/d/1M0wijHY134F9ETBgO8mjeuKUSblTRLG0/view?usp=sharing">
-                <papertitle>Multiscale Combinatorial Grouping</papertitle>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+<!--               <a href="https://yifanjiang.net/MalleConv.html"> -->
+                <papertitle>Explaining Machine Learned Models from EHR</papertitle>
               </a>
               <br>
-              <a href="http://www.cs.berkeley.edu/~arbelaez/">Pablo Arbel&aacuteez</a>, <a href="http://imatge.upc.edu/web/people/jordi-pont-tuset">Jordi Pont-Tuset</a>, <strong>Jonathan T. Barron</strong>, <a href="http://imatge.upc.edu/web/ferran">Ferran Marqu&eacutes</a>, <a href="http://www.cs.berkeley.edu/~malik/">Jitendra Malik</a>
+              <strong>Hari Santhanam</strong>,
+	  Tony Liu, Lyle Ungar, and University of Utah Pediatric Sepsis Team
               <br>
-              <em>CVPR</em>, 2014
+              <em>Manuscript in Preparation. 
               <br>
-              <a href="http://www.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/mcg/">project page</a> /
-              <a href="data/ArbelaezCVPR2014.bib">bibtex</a>
-              <p>This paper is subsumed by <a href="#MCG_journal">our journal paper</a>.</p>
-            </td>
-          </tr>
-
-          <tr onmouseout="flyspin_stop()" onmouseover="flyspin_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div id='flyspin' class='hidden'><img src="images/BarronICCV2013_160.gif"></div>
-              <div id='flystill'>
-                <a href="images/BarronICCV2013.gif"><img src="images/BarronICCV2013_160.jpg"></a>
-              </div>
-              <script type="text/javascript">
-                function flyspin_start() {
-                  document.getElementById('flyspin').style.display = 'inline';
-                  document.getElementById('flystill').style.display = 'none';
-                }
-
-                function flyspin_stop() {
-                  document.getElementById('flyspin').style.display = 'none';
-                  document.getElementById('flystill').style.display = 'inline';
-                }
-                flyspin_stop()
-              </script>
-            </td>
-            <td width="75%" valign="middle">
-              <a href="https://drive.google.com/file/d/1shvItvx_8Sb8QNXhrOXkuRmx2618iwNJ/view?usp=sharing">
-                <papertitle>Volumetric Semantic Segmentation using Pyramid Context Features</papertitle>
-              </a>
-              <br>
-              <strong>Jonathan T. Barron</strong>, <a href="http://www.cs.berkeley.edu/~arbelaez/">Pablo Arbel&aacuteez</a>, <a href="http://big.lbl.gov/">Soile V. E. Ker&aumlnen</a>, <a href="http://www.lbl.gov/gsd/biggin.html">Mark D. Biggin</a>,
-              <br> <a href="http://dwknowles.lbl.gov/">David W. Knowles</a>, <a href="http://www.cs.berkeley.edu/~malik/">Jitendra Malik</a>
-              <br>
-              <em>ICCV</em>, 2013
-              <br>
-              <a href="https://drive.google.com/file/d/1htiLpMAcYLtuBthmAb4XHnOYxUbkfnqR/view?usp=sharing">supplement</a> /
-              <a href="https://drive.google.com/file/d/1qoYeFNa443myn2SfcdhmCsYBqE9xQrPD/view?usp=sharing">poster</a> /
-              <a href="data/BarronICCV2013.bib">bibtex</a> / <a href="http://www.youtube.com/watch?v=Y56-FcfnlVA&hd=1">video 1</a> (or <a href="https://drive.google.com/file/d/0B4nuwEMaEsnmZ1ZLaHdQYzAxNlU/view?usp=sharing">mp4</a>) / <a href="http://www.youtube.com/watch?v=mvRoYuP6-l4&hd=1">video 2</a> (or <a href="https://drive.google.com/file/d/0B4nuwEMaEsnmZ1ZLaHdQYzAxNlU/view?usp=sharing">mp4</a>) / <a href="https://drive.google.com/file/d/0B4nuwEMaEsnmSF9YdWJjQmh4QW8/view?usp=sharing">code &amp; data</a>
+              <p></p>
               <p>
-                We present a technique for efficient per-voxel linear classification, which enables accurate and fast semantic segmentation of volumetric Drosophila imagery.
-              </p>
+		      We show the benefit of creating feature sets and adjusting features to remove collinearity and enhance explainability in a Pediatric Sepsis Case Study. 
+		    </p>
             </td>
           </tr>
-
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src="images/3DSP_160.jpg" alt="3DSP" width="160" height="120" style="border-style: none">
-            </td>
-            <td width="75%" valign="middle">
-              <a href="https://drive.google.com/file/d/0B4nuwEMaEsnmbG1tOGIta3N1Wjg/view?usp=sharing" id="3DSP">
-                <papertitle>3D Self-Portraits</papertitle>
-              </a>
-              <br>
-              <a href="http://www.hao-li.com/">Hao Li</a>, <a href="http://www.evouga.com/">Etienne Vouga</a>, Anton Gudym, <a href="http://www.cs.princeton.edu/~linjiel/">Linjie Luo</a>, <strong>Jonathan T. Barron</strong>, Gleb Gusev
-              <br>
-              <em>SIGGRAPH Asia</em>, 2013
-              <br>
-              <a href="http://www.youtube.com/watch?v=DmUkbZ0QMCA">video</a> / <a href="http://shapify.me/">shapify.me</a> / <a href="data/3DSP_siggraphAsia2013.bib">bibtex</a>
-              <p>Our system allows users to create textured 3D models of themselves in arbitrary poses using only a single 3D sensor.</p>
-            </td>
-          </tr>
-
-          <tr onmouseout="rgbd_stop()" onmouseover="rgbd_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div id='rgbd_anim' class='hidden'><img src="images/SceneSIRFS.gif"></div>
-              <div id='rgbd_still'><img src="images/SceneSIRFS-still.jpg"></div>
-              <script type="text/javascript">
-                function rgbd_start() {
-                  document.getElementById('rgbd_anim').style.display = 'inline';
-                  document.getElementById('rgbd_still').style.display = 'none';
-                }
-
-                function rgbd_stop() {
-                  document.getElementById('rgbd_anim').style.display = 'none';
-                  document.getElementById('rgbd_still').style.display = 'inline';
-                }
-                rgbd_stop()
-              </script>
-            </td>
-            <td width="75%" valign="middle">
-              <a href="https://drive.google.com/file/d/1snypSLhzC0jXCchJRsWpcDZ7Es5hDmXo/view?usp=sharing">
-                <papertitle>Intrinsic Scene Properties from a Single RGB-D Image</papertitle>
-              </a>
-              <br>
-              <strong>Jonathan T. Barron</strong>, <a href="http://www.cs.berkeley.edu/~malik/">Jitendra Malik</a>
-              <br>
-              <em>CVPR</em>, 2013 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font>
-              <br>
-              <a href="https://drive.google.com/file/d/1cLUw72WpgdZ_3TQAjJABdgywqjBfn_Mq/view?usp=sharing">supplement</a> / <a href="data/BarronMalikCVPR2013.bib">bibtex</a> / <a href="http://techtalks.tv/talks/intrinsic-scene-properties-from-a-single-rgb-d-image/58614/">talk</a> / <a href="https://drive.google.com/file/d/0B4nuwEMaEsnmWW1CZGJPbi12R0k/view?usp=sharing">keynote</a> (or <a href="https://drive.google.com/file/d/19q3EFf6GIb4UFcCN2DVU2jVKpxRj5kxf/view?usp=sharing">powerpoint</a>, <a href="https://drive.google.com/file/d/0B4nuwEMaEsnmMzQ4ZVp1SWdnVkk/view?usp=sharing">PDF</a>) / <a href="https://drive.google.com/open?id=1ZbPScVA6Efqd-ESvojl92sw8K-82Xxry">code &amp; data</a>
-              <p>By embedding mixtures of shapes &amp; lights into a soft segmentation of an image, and by leveraging the output of the Kinect, we can extend SIRFS to scenes.
-                <br>
-                <br>TPAMI Journal version: <a href="https://drive.google.com/file/d/1iQiUxZvjPPnb8rFCwXYesTgFSRk7mkAq/view?usp=sharing">version</a> / <a href="data/BarronMalikTPAMI2015B.bib">bibtex</a>
-              </p>
-            </td>
-          </tr>
-
 
           </tr>
 
